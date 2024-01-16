@@ -28,13 +28,15 @@ font-family: 'Work Sans', sans-serif;
 .header-section {
   max-width: 1440px;
   
-  margin: 0 80px ;
+
   display: flex;
+  margin: 0 80px ;
 }
 
 .nav-container {
   display: flex;
   align-items: center;
+  margin: 0 80px ;
 
   width: 50%;
 

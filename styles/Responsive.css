@@ -16,7 +16,16 @@
     .tour-container,.img-container{
         padding-top: 30px;
     }
-   
+    .destination-container,.destination-heading{
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .destination-container,.destination-descrpition{
+        text-align: left;
+        padding-right: 50px;
+    }
+
 
     .destination-img1{
         width: 573px;
@@ -53,8 +62,8 @@
         gap: 20px;
     }
 
-    /* .destination-heading{
-       justify-content: left;
-    } */
+    .destination-container{
+       
+    }
        
   }
