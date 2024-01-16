@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;700;800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600;1,700&display=swap");
 
+
+*{
+  margin: 0;
+  padding: 0;
+}
 button{
 width: 174px;
 height: 52px;
@@ -193,11 +198,38 @@ padding-right: 450px;
  
 }  */
 
-.destination-heading,.destination-descrpition{
+.destination-heading{
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 140px;
+  color: #131318;
+ text-align: center;
+ font-size: 20px;
+ font-weight: 800;
+
  
 }
 
+
+
+/* .destination-container{
+  max-width: 309px;
+ max-height: 72px;
+  color: rgba(19, 19, 24, 0.70);
+ text-align: center;
+ margin-left: 630px;
+ font-size: 14px;
+
+font-weight: 400;
+line-height: 24px; 
+padding-bottom: 30px;
+} */
+
+.destination-container{
+  text-align: center;
+  
+}
 
 
 .destination-img-contener1{
@@ -205,6 +237,7 @@ display: flex;
 justify-content: center;
 gap:14px;
 margin: 0  80px;
+margin-top: 30px;
 
   
 }
@@ -268,5 +301,340 @@ border-radius: 16px;
 
 }
 
+/* choose styles */
+
+.Choose-heading{
+  text-align: center;
+}
+
+.Choose-descrpition{
+  text-align: center;
+}
+
+
+
+
+.choose-container{
+
+  margin: 0  80px;
+ 
+}
+
+.deals-container{
+  width: 1440px;
+   height: 600px;
+  /* margin: 0  80px; */
+  
+  border: 2px solid red;
+ 
+}
+
+/* .deals-heading{
+
+  color: #131318;
+
+
+font-size: 40px;
+
+font-weight: 800;
+
+padding-top: 150px;
+margin-right: 800px;
+} */
+
+.deals{
+  border: 2px solid blue;
+  width: 1440px;
+  height: 600px;
+}
+.deals-descrpition{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+
+}
+
+.Choose-heading{
+  padding-top: 30px;
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.choose-descrpition{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+
+
+.img-choose-1{
+  width: 64px;
+height: 64px;
+
+}
+
+.choose-box1{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 40px 20px;
+
+
+}
+
+.choose-box2{
+width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 40px 20px;
+}
+
+.choose-box-container{
+  display: flex;
+  width: 1250px;
+
+  border: 2px solid blue;
+  margin: 0 80px;
+  gap: 24px;
+  padding-top: 20px;
+}
+
+
+
+.choose-contener1-1{
+  color: #131318;
+
+font-size: 24px;
+
+font-weight: 800;
+padding: 10px;
+}
+
+.choose-contener1-des{
+  color: #5A5A5D;
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px; 
+padding: 10px;
+}
+
+.choose-box3{
+ border: 2px solid greenyellow;
+  width: 573px;
+height: 284px;
+flex-shrink: 0;
+
+background: rgba(233, 68, 68, 0.05);
+
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+margin-top: 150px;
+margin-right: 250px;
+padding: 40px 20px;
+}
+
+.choose-box-container1{
+  /* border: 2px solid red; */
+  width: 573px;
+  height: 284px;
+  
+}
+
+
+/* ------------- */
+
+.deals-heading{
+ text-align: center;
+ padding-top: 30px;
+ color: #131318;
+
+
+font-size: 40px;
+
+font-weight: 800;
+
+}
+
+.deals-des{
+  text-align: center;
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.deals-img{
+  padding-top: 20px;
+  width: 1170px;
+height: 500px;
+padding-left: 70px;
+
+}
+
+/* .deals-conatiner{
+  border: 2px solid green;
+} */
+
+.deals-img{
+  margin: 0 80px;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.place-container{
+  display: flex;
+  margin-top: 30px;
+  
+}
+
+.palce-content{
+  margin: 0 80px;
+  margin-right: 200px;
+
+
+ 
+}
+
+.palce-heading{
+  padding-left: 50px;
+  color: #131318;
+
+font-size: 40px;
+
+font-weight: 800;
+line-height: 60px; 
+}
+
+.palce-des{
+  padding-left: 50px;
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.palce-li{
+  padding-left: 50px;
+  color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+padding-bottom: 10px;
+}
+
+.place-img-container {
+  
+  border: 2px solid greenyellow;
+  width: 610px;
+height: 424px;
+border-radius: 16px;
+background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+margin-right: 120px;
+
+
+}
+
+.place-container-button{
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+/* .palce-content button{
+  padding-left: 50px;
+} */
+
+.palce-content button{
+  margin-left:  50px;
+}
+
+.newsletter-container{
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  margin: 0 80px;
+}
+
+.newsletter-img-container{
+  width: 672px;
+height: 422px;
+flex-shrink: 0;
+/* margin-left: 20px; */
+padding-right: 40px;
+}
+
+
+.newsletter-heading{
+  padding-left: 30px;
+  padding-top: 80px;
+  border-radius: 16px;
+  color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.newsletter-des{
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.ID1{
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+
+}
+
+.news-button{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.newsletter-container button{
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+  margin-top: 20px;
+  margin-left: 30px;
+}
 
 

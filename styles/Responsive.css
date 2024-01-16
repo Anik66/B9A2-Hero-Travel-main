@@ -1,13 +1,15 @@
 
 
 @media  screen and (max-width: 576px) {
-    .header-section,.tour-container ,.destination-img-contener1,.destination-img-contener2,.destination-img-contener3 {
+    .header-section,.tour-container ,.destination-img-contener1,.destination-img-contener2,.destination-img-contener3,.choose-box-container 
+    ,.place-container,.newsletter-container{
         flex-direction: column;
         justify-content: center;
        
         margin-left: 50px;
   
     }
+    
 
     .header-section{
         padding-left: 200px;
@@ -21,9 +23,13 @@
         padding-left: 50px;
     }
 
-    .destination-container,.destination-descrpition{
+    /* .destination-container,.destination-descrpition{
         text-align: left;
         padding-right: 50px;
+    } */
+
+    .destination-heading{
+        padding-right: 40px;
     }
 
 
@@ -50,6 +56,19 @@
         height: 300px;
     }
 
+    .choose-box1{
+        width: 573px;
+        height: 300px;
+      
+    }
+    .choose-box2{
+        width: 573px;
+        height: 300px;
+      
+    }
+    .choose-box-container{
+        margin-right: 120px;
+    }
 
 
    
@@ -67,14 +86,70 @@
       padding-right: 100px;
     }
 
-    .destination-container{
+   .Choose-container{
+    text-align: center;
+   } 
+
+
+.destination-container{
+    max-width: 309px;
+    max-height: 72px;
+     color: rgba(19, 19, 24, 0.70);
+   text-align: center;
+   
+   font-size: 14px;
+   
+   font-weight: 400;
+   line-height: 24px; 
+   margin-left: 120px;
+   padding-bottom: 30px;
+   } 
+.destination-descrpition{
+    padding: 0 20px;
+}
+
+
+
+.choose-container{
+    margin-right: 800px;
+}
+
+.Choose-contener,.choose-contener1{
+   margin:0 100px
+}
+
+/* .destination-img3{
+ width: 335px;
+height: 500px;
+flex-shrink: 0;
+} */
+
+
+.deals-img{
+    width: 445px;
+    height: 500px;
+}
+.deals-conatiner{
+    padding-right: 100px;
+    width: 50%;
        
-  
- 
-  width: 550px;
-  text-align: center;
-  margin: 0  80px;
- 
-}  
-       
-  }
+}
+.palce-content{
+    width: 335px;
+   
+}
+
+.place-img-container {
+    margin-top: 30px;
+    width: 610px;
+height: 424px;
+
+
+}
+
+.newsletter-img-container{
+    padding-top: 80px;
+width: 335px;
+height: 300px;
+}
+}
