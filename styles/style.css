@@ -183,12 +183,22 @@ padding-right: 450px;
 
 } */
 
-.destination-container{
+/* .destination-container{
        
   
-  margin: 0  80px;
+ 
+  width: 309px;
   text-align: center;
-} 
+  margin: 0  80px;
+ 
+}  */
+
+.destination-heading,.destination-descrpition{
+  text-align: center;
+ 
+}
+
+
 
 .destination-img-contener1{
 display: flex;

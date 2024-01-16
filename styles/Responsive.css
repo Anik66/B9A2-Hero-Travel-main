@@ -62,8 +62,19 @@
         gap: 20px;
     }
 
+    .destination-heading{
+      
+      padding-right: 100px;
+    }
+
     .destination-container{
        
-    }
+  
+ 
+  width: 550px;
+  text-align: center;
+  margin: 0  80px;
+ 
+}  
        
   }
