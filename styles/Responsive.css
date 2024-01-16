@@ -2,7 +2,7 @@
 
 @media  screen and (max-width: 576px) {
     .header-section,.tour-container ,.destination-img-contener1,.destination-img-contener2,.destination-img-contener3,.choose-box-container 
-    ,.place-container,.newsletter-container{
+    ,.place-container,.newsletter-container,.footer-section,.banner-button,.choose-img-container{
         flex-direction: column;
         justify-content: center;
        
@@ -83,7 +83,11 @@
 
     .destination-heading{
       
-      padding-right: 100px;
+        margin-left: 220px;
+    }
+
+    .destination-descrpition{
+        padding-bottom: 45px;
     }
 
    .Choose-container{
@@ -130,7 +134,7 @@ flex-shrink: 0;
     height: 500px;
 }
 .deals-conatiner{
-    padding-right: 100px;
+    margin-left: 220px;
     width: 50%;
        
 }
@@ -151,5 +155,134 @@ height: 424px;
     padding-top: 80px;
 width: 335px;
 height: 300px;
+padding-left: 20px;
 }
+ /* footer{
+    width: 375px;
+    height: 309px;
+    flex-shrink: 0;
+    position: fixed;
+ } */
+
+ .footer-section{
+   margin-left: 200px;
+   text-align: center;
+   
+width: 375px;
+height: 309px;
+   
+  }
+
+  .banner-section{
+    width: 500px;
+   height: 800px;
+
+}
+.banner-des{
+    width: 304px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+
+}
+
+.banner-section.banner-des{
+    margin-left: 200px;
+}
+
+
+main{
+    width: 375px;
+height: 9429px;
+}
+
+.footer-des{
+    text-align: center;
+}
+.banner-button{
+    margin-bottom: 500px;
+    margin-left: 30px;
+    text-align: center;
+   
+}
+
+.banner-section{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ .png') ;
+    /* background-image:url(''); */
+   /* background-repeat: no-repeat; */
+   margin: 0 80px ; 
+ 
+   margin-left: 220px;
+   
+ }
+
+ .destination-img-contener1{
+    padding-top: 50px;
+   
+ }
+
+ .choose-container{
+    padding-left: 100px;
+    width: 309px;
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+ }
+ .deals-conatiner{
+    
+    width: 309px;
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+ }
+
+ .destination-container{
+    width: 309px;
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+ }
+
+ .button-optional{
+   
+    padding-left: 200px;
+ }
+
+
+
+ .footer-des,.svg-section{
+ 
+   /* padding-left: 400px;
+   padding-: 200px; */
+   text-align: center;
+   padding-left: 200px;
+   
+   
+ }
+
+ .footer-section{
+    padding-right: 300px;
+    
+ }
+
+.svg-section{
+    margin-left: 150px;
+}
+
 }
