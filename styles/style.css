@@ -126,6 +126,8 @@ main{
 }
 .tour-container{
  display: flex;
+ /* border: 2px solid  red; */
+ margin: 0  80px;
 }
 
 .tour-heading{
@@ -136,6 +138,7 @@ font-weight: 800;
 }
 .tour-content{
   width: 525px;
+  margin: 0  80px;
 }
 
 .img-container img{
@@ -180,24 +183,36 @@ padding-right: 450px;
 
 .destination-container{
        
-  border: 2px solid red;
+  
+  margin: 0  80px;
+  text-align: center;
 } 
 
 .destination-img-contener1{
-  
-width: 573px;
-height: 300px;
 display: flex;
-gap:14px
+justify-content: center;
+gap:14px;
+margin: 0  80px;
+
   
 }
+
+ .destination-img00{
+  width: 573px;
+  height: 300px;
+} 
+
 
 
 .destination-img-contener2{
   display: flex;
-  gap: 14px;
-  padding-top: 14px;
+  justify-content: center;
+   gap: 14px;
+  padding-top: 14px; 
+  /* border: 2px solid  red; */
+  margin: 0  80px;
 }
+
 
 .destination-img1{
   width: 374px;
@@ -211,7 +226,7 @@ border-radius: 16px;
   border-radius: 16px;
 
 }
-.destination-img1{
+.destination-img3{
 width: 290px;
 height: 286px;
 border-radius: 16px;
@@ -220,8 +235,10 @@ border-radius: 16px;
 
 .destination-img-contener3{
   display: flex;
+  justify-content: center;
   gap: 14px;
   padding-top: 14px;
+  
 
 }
 
@@ -232,7 +249,7 @@ border-radius: 16px;
 
 }
 .destination-img5{
-  width: 580px;
+  width:673px;
   height: 300px;
   
 border-radius: 16px;
